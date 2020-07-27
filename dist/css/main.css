@@ -120,19 +120,28 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
   margin: 0;
   font-weight: 400; }
   h1.lg-heading,
   h2.lg-heading,
-  h3.lg-heading {
+  h3.lg-heading,
+  h6.lg-heading {
     font-size: 6rem; }
   h1.sm-heading,
   h2.sm-heading,
-  h3.sm-heading {
+  h3.sm-heading,
+  h6.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(158, 158, 158, 0.5); }
+
+label {
+  margin-left: 10px;
+  margin: 10px;
+  font-size: 60px;
+  color: #eece1a; }
 
 a {
   color: #fff;
@@ -271,7 +280,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_Fotor.jpg");
+      background: url("../img/obe.jpg");
       width: 150px;
       height: 150px; }
   .about-info {

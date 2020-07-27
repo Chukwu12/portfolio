@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
   margin: 0;
   font-weight: 400;
 
@@ -32,6 +33,13 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
   }
+}
+
+label {
+  margin-left: 10px;
+  margin: 10px;
+  font-size: 60px;
+  color: #eece1a;
 }
 
 a {
