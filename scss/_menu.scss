@@ -27,7 +27,7 @@
 
       //Line 2 - hide
       &:nth-child(2) {
-        opacity: 0;
+        opacity: 1;
       }
 
       //Line 3 - rotate
@@ -84,14 +84,6 @@
     &.show {
       //Slide in from bottom
       transform: translate3d(0, 0, 0);
-    }
-
-    .portrait {
-      width: 250px;
-      height: 250px;
-      background: url(../img/portrait_Fotor.jpg);
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
     }
   }
 
